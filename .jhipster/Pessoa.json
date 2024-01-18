@@ -1,0 +1,33 @@
+{
+  "changelogDate": "20240118154526",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "50",
+      "fieldValidateRulesMinlength": 0
+    },
+    {
+      "fieldName": "idade",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "min", "max"],
+      "fieldValidateRulesMax": 100,
+      "fieldValidateRulesMin": 0
+    },
+    {
+      "fieldName": "salario",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min", "max"],
+      "fieldValidateRulesMax": 100,
+      "fieldValidateRulesMin": 0
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Pessoa",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
