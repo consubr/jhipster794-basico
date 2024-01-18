@@ -12,7 +12,7 @@
     <name>Jhipster 810</name>
     <description>Description for jhipster810</description>
 
-    <repositories>piost
+    <repositories>
         <!-- jhipster-needle-maven-repository -->
     </repositories>
 
