@@ -33,13 +33,13 @@ spring:
     basename: i18n/messages
   task:
     execution:
-      thread-name-prefix: jhipster-810-task-
+      thread-name-prefix: jhipster-794-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: jhipster-810-scheduling-
+      thread-name-prefix: jhipster-794-scheduling-
       pool:
         size: 20
   thymeleaf:
